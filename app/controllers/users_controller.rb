@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
   def index
-    render plain: 'Hello World!'
+    render temlate: 'users/index'
   end
 end

@@ -58,3 +58,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'nokogiri', '~> 1.11.1'
 
 gem 'slim-rails'
+
+gem 'webpacker', '~> 5.0'

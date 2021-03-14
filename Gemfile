@@ -60,3 +60,5 @@ gem 'nokogiri', '~> 1.11.1'
 gem 'slim-rails'
 
 gem 'webpacker', '~> 5.0'
+
+gem 'foreman'

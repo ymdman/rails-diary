@@ -1,11 +1,9 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  id: 1
-  title: AAAAAAA
-  body: BBBBBBB
+  title: MyString
+  body: MyText
 
 two:
-  id: 2
-  title: CCCCCCC
-  body: DDDDDD
+  title: MyString
+  body: MyText

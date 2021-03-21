@@ -1,22 +1,21 @@
-h1 Listing diaries
+h1 Diaries
 
 table
   thead
     tr
+      th ID
       th Title
-      th Body
-      th
-      th
+      th Create
+      th Update
       th
 
   tbody
     - @diaries.each do |diary|
       tr
-        td = diary.title
-        td = diary.body
-        td = link_to 'Show', diary
-        td = link_to 'Edit', edit_diary_path(diary)
-        td = link_to 'Destroy', diary, data: { confirm: 'Are you sure?' }, method: :delete
+        td = diary.id
+        td = link_to diary.title, diary
+        td = diary.created_at
+        td = diary.updated_at
 
 br
 

@@ -6,7 +6,15 @@ p
 p
   strong Body:
   = @diary.body
+p
+  strong Create:
+  = @diary.created_at
+p
+  strong Update:
+  = @diary.updated_at
 
 => link_to 'Edit', edit_diary_path(@diary)
+'|
+=> link_to 'Delete', @diary, method: :delete, data: { confirm: 'Delete?' }
 '|
 =< link_to 'Back', diaries_path

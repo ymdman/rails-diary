@@ -1,5 +1,5 @@
 <template>
-  <footer>TheFooter</footer>
+  <footer class="footer">TheFooter</footer>
 </template>
 
 <script>
@@ -13,3 +13,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+  .footer {
+    width: 100%;
+  }
+</style>
